@@ -3,7 +3,7 @@
 A web app that helps you understand Mumbai slang and street language like a local!
 
 ## 🌐 Live Web Application
-**[🚀 Launch Mumbai Slang Translator →](http://localhost:3000/translate)**
+**[🚀 Launch Mumbai Slang Translator →](https://margajelast-collab.github.io/amchi-mumbai-ai/translate)**
 
 *Click above to use the app directly in your browser*
 
@@ -32,7 +32,7 @@ This app translates Mumbai slang words and phrases into English. Perfect for tou
 
 ## How to Use
 
-1. **[🚀 Open the Web App](http://localhost:3000/translate)** - Click to launch the translator
+1. **[🚀 Open the Web App](https://margajelast-collab.github.io/amchi-mumbai-ai/translate)** - Click to launch the translator
 2. Type any Mumbai slang word or phrase
 3. Click "Translate" 
 4. Get the meaning with cultural context!
