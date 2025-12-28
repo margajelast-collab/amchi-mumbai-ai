@@ -125,13 +125,40 @@ cd src/client && npm run build
 ```
 
 ### GitHub Pages Deployment
-This app can be deployed to GitHub Pages. For development, run locally at:
-**http://localhost:3000**
+This app is deployed to GitHub Pages. To deploy updates:
 
-To deploy updates:
-1. Build the React app: `cd src/client && npm run build`
-2. Copy build files to root: `Copy-Item "src\client\build\*" -Destination "." -Recurse -Force`
-3. Commit and push changes to the `main` branch
+1. **Build the React app:**
+```bash
+cd src/client
+npm run build
+cd ../..
+```
+
+2. **Copy build files to root:**
+```bash
+# Windows PowerShell
+Copy-Item "src\client\build\*" -Destination "." -Recurse -Force
+
+# Or use the deployment script
+.\deploy-to-github-pages.ps1
+```
+
+3. **Commit and push changes:**
+```bash
+git add .
+git commit -m "Deploy to GitHub Pages"
+git push origin main
+```
+
+**Live URLs:**
+- **Main app**: https://margajelast-collab.github.io/amchi-mumbai-ai/
+- **Translator**: https://margajelast-collab.github.io/amchi-mumbai-ai/#/translate
+
+**Troubleshooting:**
+- If the app doesn't load, check GitHub repository Settings → Pages
+- Ensure source is set to "Deploy from a branch" with branch `main` and folder `/ (root)`
+- Wait 5-10 minutes after pushing for GitHub Pages to update
+- Check that `.nojekyll` file exists in the root to disable Jekyll processing
 
 ## License
 
