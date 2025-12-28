@@ -2,10 +2,13 @@
 
 A web app that helps you understand Mumbai slang and street language like a local!
 
+## 🌐 Live Website
+**[Try the app now →](https://margajelast-collab.github.io/amchi-mumbai-ai/)**
+
 ![Mumbai Slang Translator](https://img.shields.io/badge/Mumbai-Slang%20Translator-orange)
-![React](https://img.shields.io/badge/React-18.0-blue)
-![TypeScript](https://img.shields.io/badge/TypeScript-4.9-blue)
-![Node.js](https://img.shields.io/badge/Node.js-16+-green)
+![React](https://img.shields.io/badge/React-19.0-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue)
+![Node.js](https://img.shields.io/badge/Node.js-18+-green)
 
 ## What is this?
 
@@ -27,7 +30,7 @@ This app translates Mumbai slang words and phrases into English. Perfect for tou
 
 ## How to Use
 
-1. Visit the website
+1. **[Visit the live website](https://margajelast-collab.github.io/amchi-mumbai-ai/)**
 2. Type any Mumbai slang word or phrase
 3. Click "Translate" 
 4. Get the meaning with cultural context!
@@ -53,8 +56,8 @@ This app translates Mumbai slang words and phrases into English. Perfect for tou
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/mumbai-slang-translator.git
-cd mumbai-slang-translator
+git clone https://github.com/margajelast-collab/amchi-mumbai-ai.git
+cd amchi-mumbai-ai
 ```
 
 2. **Install dependencies**
@@ -75,7 +78,7 @@ npm run dev
 ## Project Structure
 
 ```
-mumbai-slang-translator/
+amchi-mumbai-ai/
 ├── src/
 │   ├── client/          # React frontend
 │   ├── server/          # Node.js backend
@@ -129,6 +132,10 @@ npm test
 ```bash
 npm run build
 ```
+
+### GitHub Pages Deployment
+This app is automatically deployed to GitHub Pages from the `main` branch. The live website is available at:
+**https://margajelast-collab.github.io/amchi-mumbai-ai/**
 
 ### Environment Variables
 Create a `.env` file:
