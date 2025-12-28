@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/amchi-mumbai-ai/static/css/main.d8d2fd29.css",
-    "main.js": "/amchi-mumbai-ai/static/js/main.56c1065d.js",
+    "main.js": "/amchi-mumbai-ai/static/js/main.1db62ef1.js",
     "static/js/453.eca5f793.chunk.js": "/amchi-mumbai-ai/static/js/453.eca5f793.chunk.js",
     "index.html": "/amchi-mumbai-ai/index.html",
     "main.d8d2fd29.css.map": "/amchi-mumbai-ai/static/css/main.d8d2fd29.css.map",
-    "main.56c1065d.js.map": "/amchi-mumbai-ai/static/js/main.56c1065d.js.map",
+    "main.1db62ef1.js.map": "/amchi-mumbai-ai/static/js/main.1db62ef1.js.map",
     "453.eca5f793.chunk.js.map": "/amchi-mumbai-ai/static/js/453.eca5f793.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8d2fd29.css",
-    "static/js/main.56c1065d.js"
+    "static/js/main.1db62ef1.js"
   ]
 }

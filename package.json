@@ -11,6 +11,7 @@
     "build:server": "tsc -p tsconfig.server.json",
     "build:client": "cd src/client && npm run build",
     "build:prod": "cross-env NODE_ENV=production npm run build",
+    "deploy:gh-pages": "cd src/client && npm run build && cd ../.. && cp -r src/client/build/* . && git add . && git commit -m \"Deploy to GitHub Pages\" && git push",
     "start": "node dist/server/index.js",
     "start:prod": "cross-env NODE_ENV=production node dist/server/index.js",
     "test": "jest",
