@@ -134,8 +134,13 @@ npm run build
 ```
 
 ### GitHub Pages Deployment
-This app is automatically deployed to GitHub Pages from the `main` branch. The live website is available at:
+This app is deployed to GitHub Pages and serves the built React application. The live website is available at:
 **https://margajelast-collab.github.io/amchi-mumbai-ai/**
+
+To deploy updates:
+1. Build the React app: `npm run build:client`
+2. Copy build files to root: `Copy-Item "src\client\build\*" -Destination "." -Recurse -Force`
+3. Commit and push changes to the `main` branch
 
 ### Environment Variables
 Create a `.env` file:
