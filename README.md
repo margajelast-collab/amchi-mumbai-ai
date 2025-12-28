@@ -2,8 +2,10 @@
 
 A web app that helps you understand Mumbai slang and street language like a local!
 
-## 🌐 Live Website
-**[Try the app now →](https://margajelast-collab.github.io/amchi-mumbai-ai/)**
+## 🌐 Live Web Application
+**[🚀 Launch Mumbai Slang Translator →](http://localhost:3000/translate)**
+
+*Click above to use the app directly in your browser*
 
 ![Mumbai Slang Translator](https://img.shields.io/badge/Mumbai-Slang%20Translator-orange)
 ![React](https://img.shields.io/badge/React-19.0-blue)
@@ -30,7 +32,7 @@ This app translates Mumbai slang words and phrases into English. Perfect for tou
 
 ## How to Use
 
-1. **[Visit the live website](https://margajelast-collab.github.io/amchi-mumbai-ai/)**
+1. **[🚀 Open the Web App](http://localhost:3000/translate)** - Click to launch the translator
 2. Type any Mumbai slang word or phrase
 3. Click "Translate" 
 4. Get the meaning with cultural context!
@@ -42,7 +44,6 @@ This app translates Mumbai slang words and phrases into English. Perfect for tou
 ## Tech Stack
 
 - **Frontend:** React + TypeScript
-- **Backend:** Node.js + Express
 - **Styling:** Custom CSS with Mumbai-inspired design
 - **Data:** JSON-based slang dictionary
 
@@ -62,36 +63,26 @@ cd amchi-mumbai-ai
 
 2. **Install dependencies**
 ```bash
-npm install
 cd src/client && npm install
 ```
 
 3. **Start the app**
 ```bash
-npm run dev
+npm start
 ```
 
 4. **Open your browser**
 - Frontend: http://localhost:3000
-- Backend: http://localhost:3001
 
 ## Project Structure
 
 ```
 amchi-mumbai-ai/
 ├── src/
-│   ├── client/          # React frontend
-│   ├── server/          # Node.js backend
-│   └── shared/          # Shared code
+│   └── client/          # React frontend application
 ├── data/                # Slang dictionary
-├── scripts/             # Build scripts
 └── README.md
 ```
-
-## API Endpoints
-
-- `POST /api/translate` - Translate slang to English
-- `GET /api/suggestions` - Get word suggestions
 
 ## Contributing
 
@@ -125,30 +116,22 @@ Our dictionary includes:
 
 ### Running Tests
 ```bash
-npm test
+cd src/client && npm test
 ```
 
 ### Building for Production
 ```bash
-npm run build
+cd src/client && npm run build
 ```
 
 ### GitHub Pages Deployment
-This app is deployed to GitHub Pages and serves the built React application. The live website is available at:
-**https://margajelast-collab.github.io/amchi-mumbai-ai/**
+This app can be deployed to GitHub Pages. For development, run locally at:
+**http://localhost:3000**
 
 To deploy updates:
-1. Build the React app: `npm run build:client`
+1. Build the React app: `cd src/client && npm run build`
 2. Copy build files to root: `Copy-Item "src\client\build\*" -Destination "." -Recurse -Force`
 3. Commit and push changes to the `main` branch
-
-### Environment Variables
-Create a `.env` file:
-```
-PORT=3001
-NODE_ENV=development
-CLIENT_URL=http://localhost:3000
-```
 
 ## License
 
